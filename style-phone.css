@@ -1,0 +1,29 @@
+button {
+    position: relative;
+    display: block;
+    color: #000000;
+    width: 200px;
+    height: 90px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateX(-15px)
+
+}
+li {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+p {
+    position: absolute;
+    top: 15px;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
